@@ -300,7 +300,91 @@
             "example": "Point d'eau potable",
             "type": "string",
             "constraints": {
-                "required": false, 
+                "required": true, 
                 "enum" : ["Point d'eau potable", "Toilette publique", "Bac à sel", "Canisite", "Poubelle publique", "Cendrier", "Banc public", "Plaine de jeux", "Equipement sportif", "Jardin partagé", "Panneau d’affichage", "Boite à livres", "Bulle à verre", "Bulle à vêtements", "Autre"]
             }
         },
+        {
+            "name": "type_details",
+            "title": "Précisions sur le type d'équipement",
+            "description": "Ce champ décrit avec plus de précision le type de l'équipement. Par exemple, pour un jeu de type cendrier : cendrier sur pied, cendrier au sol ou cendrier mural. Pour un jeu de type toilette publique : urinoir ou toilette.",
+            "example": "Fontaine",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "status",
+            "title": "Statut",
+            "description": "Ce champ indique si l'équipmenet est disponible ou non au moment de la création/mise à jour du jeu de données. Un équipement pourrait par exemple ne plus être disponible car il n'est plus accessible pendant des travaux.",
+            "example": "Disponible",
+            "type": "string",
+            "constraints": {
+                "required": false
+                "enume": ["Disponible", "Non disponible"]
+            }
+        },
+        {
+            "name": "installation_date",
+            "title": "Date d'installation de l'équipement",
+            "description": "Ce champ indique la date d'installation de l'équipement. Il respecte le format ISO 8601 : année-mois-jour (YYYY-MM-DD).",
+            "example": "2020-12-05",
+            "type": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "last_maintenance_date",
+            "title": "Date de dernière maintenance",
+            "description": "Ce champ indique la dernière date de maintenance de l'équipement. Il respecte le format ISO 8601 : année-mois-jour (YYYY-MM-DD). ",
+            "example": "2022-01-05",
+            "type": "default",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "provider",
+            "title": "Gestionnaire",
+            "description": "Ce champ indique le nom du gestionnaire de l'équipement collectif.",
+            "example": "Ville de Namur",
+            "type": "string",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "paying",
+            "title": "Payant",
+            "description": "Ce champ précise si l'équipement est payant (true) ou gratuit (false). Par exemple dans le cadre des toilettes publique.",
+            "example": "true",
+            "type": "boolean",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "name": "created_date",
+            "title": "Date de création de la donnée",
+            "description": "Ce champ indique la date de création de la donnée dans le jeu. Il respecte le format ISO 8601 : année-mois-jour (YYYY-MM-DD) ",
+            "example": "2021-11-03",
+            "type": "default",
+            "constraints": {
+                "required": false
+            }
+          },
+          {
+            "name": "last_modified_date",
+            "title": "Date de dernière modification de la donnée",
+            "description": "Ce champ indique la date de la dernière modification de la donnée dans le jeu. Il respecte le format ISO 8601 : année-mois-jour (YYYY-MM-DD). ",
+            "example": "2021-12-05",
+            "type": "default",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "primaryKey":"id"
+}

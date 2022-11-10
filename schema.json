@@ -276,7 +276,7 @@
         {
             "name": "disabled_access",
             "title": "Accessibilité PMR",
-            "description": "Ce champ indique l'accessibilité des l'équipements pour les personnes à mobilité réduite.",
+            "description": "Ce champ indique l'accessibilité de l'équipement pour les personnes à mobilité réduite.",
             "example": "true",
             "type": "boolean",
             "constraints": {
@@ -286,7 +286,7 @@
       {
             "name": "schedule",
             "title": "Horaires",
-            "description": "Le champ indique les horaires auxquelles l'équipement accessible. Il respecte le format proposé par OpenStreetMap (https://wiki.openstreetmap.org/wiki/FR:Key:opening_hours). L'outil YoHours (https://projets.pavie.info/yohours/) permet de générer des horaires au bon format. Le format OSM permet d'indiquer des exceptions pendant certaines périodes (vacances, jours fériés…). Pour les générer au bon format en utilisant YoHours, il suffit de les renseigner en cliquant sur le bouton 'plus' vert, situé en haut à gauche.",
+            "description": "Le champ indique les horaires auxquelles l'équipement est accessible. Il respecte le format proposé par OpenStreetMap (https://wiki.openstreetmap.org/wiki/FR:Key:opening_hours). L'outil YoHours (https://projets.pavie.info/yohours/) permet de générer des horaires au bon format. Le format OSM permet d'indiquer des exceptions pendant certaines périodes (vacances, jours fériés…). Pour les générer au bon format en utilisant YoHours, il suffit de les renseigner en cliquant sur le bouton 'plus' vert, situé en haut à gauche.",
             "example": "Mo-Fr 09:00-12:00,14:00-18:30; Sa 08:30-12:00",
             "type": "string",
             "constraints": {
@@ -317,7 +317,7 @@
         {
             "name": "status",
             "title": "Statut",
-            "description": "Ce champ indique si l'équipmenet est disponible ou non au moment de la création/mise à jour du jeu de données. Un équipement pourrait par exemple ne plus être disponible car il n'est plus accessible pendant des travaux.",
+            "description": "Ce champ indique si l'équipement est disponible ou non au moment de la création/mise à jour du jeu de données. Un équipement pourrait par exemple ne plus être disponible car il n'est plus accessible pendant des travaux.",
             "example": "Disponible",
             "type": "string",
             "constraints": {

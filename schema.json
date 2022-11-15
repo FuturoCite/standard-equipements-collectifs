@@ -322,7 +322,7 @@
             "type": "string",
             "constraints": {
                 "required": false
-                "enume": ["Disponible", "Non disponible"]
+                "enum": ["Disponible", "Non disponible"]
             }
         },
         {

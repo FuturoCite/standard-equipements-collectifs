@@ -245,14 +245,23 @@
         },
         {
             "name": "geometry",
-            "title": "Géométrie",
+            "title": "Geométrie",
             "description": "Ce champ indique les coordonnées de la zone correspondante à l'équipement. Ce champ est à compléter dans le cas d'un équipement s'étendant sur une large zone tel qu'une plaine de jeu, un canisite",
-            "example": "50.485982031005975 4.198153280194966, 50.485978523616055 4.19815000246906, 50.48605955547803 4.197980116330998, 50.486095272462364 4.198022901680754, 50.486014521076385 4.198192200671369, 50.485982031005975 4.198153280194966",
-            "type": "string",
-            "constraints": {
-                "required": false
+            "example": {
+                 "type": "Feature",
+                 "geometry": {
+                   "type": "LineString",
+                   "coordinates": [[50.628723, 5.598576], [50.629186, 5.59804], [50.629635, 5.598147], [50.62988, 5.59805], [50.630037, 5.597932], [50.630411, 5.596656], [50.630397, 5.596366], [50.630288, 5.596103], [50.630098, 5.595872], [50.629975, 5.595679], [50.629519, 5.595652], [50.629826, 5.595261], [50.629907, 5.595025], [50.630057, 5.594885], [50.630207, 5.594403], [50.630336, 5.594177], [50.630554, 5.594091]]
+                             },
+            "properties": {
+               "name": "un nom"
+                   }
+                 },
+         "type": "geojson", 
+         "constraints": {
+              "required": false
             }
-        },
+          },
         {
             "name": "location_details",
             "title": "Précisions sur l'emplacement",

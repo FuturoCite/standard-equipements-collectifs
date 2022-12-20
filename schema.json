@@ -348,7 +348,7 @@
         {
             "name": "last_maintenance_date",
             "title": "Date de dernière maintenance",
-            "description": "Ce champ indique la dernière date de maintenance de l'équipement. Il respecte le format ISO 8601 : année-mois-jour (YYYY-MM-DD). ",
+            "description": "Ce champ indique la dernière date de maintenance de l'équipement. Il respecte le format ISO 8601 : année-mois-jour (YYYY-MM-DD).",
             "example": "2022-01-05",
             "type": "date",
             "format": "default",

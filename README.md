@@ -178,9 +178,9 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    <td>Accessibilité PMR 
    <br>(disabled_access)
    </td>
-   <td>Optionnel
+   <td>Optionnel (recommandé)
    </td>
-   <td>Ce champ indique l'accessibilité de l'équipement pour les personnes à mobilité réduite.
+   <td>Ce champ est recommandé. Il indique l'accessibilité de l'équipement pour les personnes à mobilité réduite.
    </td>
   </tr>
   <tr>

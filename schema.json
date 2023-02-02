@@ -285,7 +285,7 @@
         {
             "name": "disabled_access",
             "title": "Accessibilité PMR",
-            "description": "Ce champ est recommandé. Il indique l'accessibilité de l'équipement pour les personnes à mobilité réduite.",
+            "description": "Ce champ est recommandé. Il indique si l'équipement est accessible pour les personnes à mobilité réduite (valeur 'true') ou non (valeur 'false').",
             "example": "true",
             "type": "boolean",
             "constraints": {
@@ -369,7 +369,7 @@
         {
             "name": "paying",
             "title": "Payant",
-            "description": "Ce champ précise si l'équipement est payant (true) ou gratuit (false). Par exemple dans le cadre des toilettes publique.",
+            "description": "Ce champ précise si l'équipement est payant (valeur 'true') ou gratuit (valeur 'false'). Par exemple dans le cadre des toilettes publique.",
             "example": "true",
             "type": "boolean",
             "constraints": {

@@ -180,7 +180,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel (recommandé)
    </td>
-   <td>Ce champ est recommandé. Il indique l'accessibilité de l'équipement pour les personnes à mobilité réduite.
+   <td>Ce champ est recommandé. Il indique si l'équipement est accessible pour les personnes à mobilité réduite (valeur 'true') ou non (valeur 'false').
    </td>
   </tr>
   <tr>
@@ -252,7 +252,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel
    </td>
-   <td>Ce champ précise si l'équipement est payant ou gratuit. Par exemple dans le cadre des toilettes publique
+   <td>Ce champ précise si l'équipement est payant ou gratuit (valeur 'true') ou gratuit (valeur 'false'). Par exemple dans le cadre des toilettes publique
    </td>
   </tr>
   <tr>

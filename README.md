@@ -252,7 +252,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel
    </td>
-   <td>Ce champ précise si l'équipement est payant ou gratuit (valeur 'true') ou gratuit (valeur 'false'). Par exemple dans le cadre des toilettes publiques. Si non applicable/non connu : ne pas renseigner ce champ.</td>
+   <td>Ce champ précise si l'équipement est payant (valeur 'true') ou gratuit (valeur 'false'). Par exemple dans le cadre des toilettes publiques. Si non applicable/non connu : ne pas renseigner ce champ.</td>
   </tr>
   <tr>
    <td>Date de création de la donnée 
@@ -293,7 +293,7 @@ Les fichiers doivent, sauf exception et autant que possible, respecter les règl
 Les fichiers doivent, sauf exception et autant que possible, respecter les règles de nommage suivantes :
 
 * YYYY-MM-DD : Date de création du fichier
-* idProducteur : code ISN unique de la commune pour identifier le producteur
+* idProducteur : code INS unique de la commune pour identifier le producteur
 * equipements-collectifs : nom du fichier, en minuscules non accentuées
 * territoire : Nom du territoire concerné, non accentué (exemple : Liege)
 * extension : Si les règles de formatage sont respectées, l'extension est .csv

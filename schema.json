@@ -166,7 +166,7 @@
         {
             "name": "zone_address",
             "title": "Partie de commune",
-            "description": "Ce champ continent le nom de la partie de commune où se situe l'équipement, conforme à l'appelation dans StatBel : https://statbel.fgov.be/fr/propos-de-statbel/methodologie/classifications/geographie",
+            "description": "Ce champ contient le nom de la partie de commune où se situe l'équipement, conforme à l'appelation dans StatBel : https://statbel.fgov.be/fr/propos-de-statbel/methodologie/classifications/geographie",
             "example": "Wépion",
             "type": "string",
             "constraints": {
@@ -335,7 +335,7 @@
         {
             "name": "status",
             "title": "Statut",
-            "description": "Ce champ indique si l'équipement est disponible ou non au moment de la création/mise à jour du jeu de données. Un équipement pourrait par exemple ne plus être disponible car il n'est plus accessible pendant des travaux.",
+            "description": "Ce champ indique si l’équipement est disponible ou non au moment de la création/mise à jour du jeu de données. Un équipement pourrait par exemple ne plus être disponible car il n'est plus accessible pendant des travaux. Valeur à choisir parmi : Disponible, Non disponible. Si non connu : ne pas renseigner ce champ. ",
             "example": "Disponible",
             "type": "string",
             "constraints": {

@@ -81,7 +81,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel
    </td>
-   <td>Ce champ continent le nom de la partie de commune où se situe l'équipement, conforme à l'appelation dans StatBel : https://statbel.fgov.be/fr/propos-de-statbel/methodologie/classifications/geographie
+   <td>Ce champ contient le nom de la partie de commune où se situe l'équipement, conforme à l'appelation dans StatBel : https://statbel.fgov.be/fr/propos-de-statbel/methodologie/classifications/geographie
    </td>
   </tr>
   <tr>
@@ -99,7 +99,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Obligatoire
    </td>
-   <td>Ce champ renseigne le nom de la voirie où se situe l'équipement (ou de la voirie la plus proche de l'emplacement PMR si l'emplacement n'est pas en voirie).
+   <td>Ce champ renseigne le nom de la voirie où se situe l'équipement (ou de la voirie la plus proche de l'équipement si l'équipement n'est pas en voirie).
    </td>
   </tr>
   <tr>
@@ -216,7 +216,7 @@ Le tableau ci-dessous donne un aperçu des champs du schéma.
    </td>
    <td>Optionnel
    </td>
-   <td>Ce champ indique si l’équipement est disponible ou non au moment de la création/mise à jour du jeu de données. Un équipement pourrait par exemple ne plus être disponible car il n'est plus accessible pendant des travaux.
+   <td>Ce champ indique si l’équipement est disponible ou non au moment de la création/mise à jour du jeu de données. Un équipement pourrait par exemple ne plus être disponible car il n'est plus accessible pendant des travaux. Valeur à choisir parmi : Disponible, Non disponible. Si non connu : ne pas renseigner ce champ.
    </td>
   </tr>
   <tr>

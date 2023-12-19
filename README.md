@@ -1,5 +1,5 @@
 # Schéma des équipements collectifs
-Ce schéma permet de modéliser les différents attributs des équipements collectifs 
+Ce schéma permet de modéliser les différents attributs des équipements collectifs. Par équipements collectifs, on entend : Point d’eau potable ; Toilette publique ; Bac à sel ;Canisite ; Poubelle publique ; Cendrier ; Banc public ; Plaine de jeux ; Equipement sportif ; Jardin partagé ; Panneau d’affichage ; Boite à livres ; Bulle à verre ; Bulle à vêtements ; Autre 
 
 ## Contexte
 
